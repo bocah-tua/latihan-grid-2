@@ -1,0 +1,21 @@
+body{
+    padding:20px;
+    background-color:#333;
+}
+.galeri{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap:5px;
+    color:white;
+}
+.subgalery{
+    background-color: aliceblue;
+    padding:10px;
+    border-radius:3px;
+    color:black;
+}
+h1{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+}
